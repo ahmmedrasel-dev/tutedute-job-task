@@ -6,13 +6,13 @@ import WithdrowCard from '../WithdrowCard/WithdrowCard';
 
 const Home = () => {
   return (
-    <div className='mx-52'>
+    <div className='lg:mx-52 mx-10 lg:mt-0 mt-4'>
       <Breadcum></Breadcum>
-      <div className='grid grid-cols-2 gap-4'>
+      <div className='grid lg:grid-cols-2 gap-4'>
         <WithdrowCard></WithdrowCard>
         <ReferralCode></ReferralCode>
       </div>
-      <div className='grid grid-cols-5 gap-4 my-10'>
+      <div className='grid lg:grid-cols-5 gap-4 my-10'>
         <Hdworks></Hdworks>
       </div>
 

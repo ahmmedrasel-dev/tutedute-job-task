@@ -8,10 +8,10 @@ import wallet from '../../image/wallet.png'
 
 const Hdworks = () => {
   return (
-    <div className='col-span-4'>
+    <div className='lg:col-span-4'>
       <h2 className='font-semibold text-2xl	text-tutePrimary'>How does it work ?</h2>
 
-      <div className='grid grid-cols-2 gap-8 mt-6'>
+      <div className='grid lg:grid-cols-2 gap-8 mt-6'>
         <SingleWork img={friends} title={'Invite your Friends'} desc={'Share the link tutedude.com with your friends'}></SingleWork>
         <SingleWork img={tag} title={'Friend purchases any course'} desc={'Using your REFERRAL CODE in the payments page'}></SingleWork>
 

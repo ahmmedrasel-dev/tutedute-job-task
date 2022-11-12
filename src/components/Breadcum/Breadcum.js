@@ -5,7 +5,7 @@ import './braeadcum.css'
 const Breadcum = () => {
   return (
     <div>
-      <ul className='breadcum'>
+      <ul className='flex lg:items-center items-center'>
         <li>UI/UX</li>
         <FaAngleRight />
         <li>Refer & Earn</li>
