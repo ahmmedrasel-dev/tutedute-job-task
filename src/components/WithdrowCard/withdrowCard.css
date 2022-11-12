@@ -1,0 +1,17 @@
+.withdrowCard {
+  background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+.title {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.amount {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+}
