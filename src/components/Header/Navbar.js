@@ -6,10 +6,9 @@ import './navbar.css';
 const Navbar = () => {
   return (
     <>
-      <div className="navbar lg:container">
-        <a className="btn btn-ghost normal-case text-xl"><img src={logo} alt="" /></a>
+      <div className="navbar lg:container lg:mx-auto">
+        <img src={logo} alt="" />
         <div className="navbar-end">
-
 
         </div>
 
